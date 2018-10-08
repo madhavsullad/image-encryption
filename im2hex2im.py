@@ -1,7 +1,7 @@
 #Image to hex
 
 import binascii
-filename = 'eminem.jpg'
+filename = 'eminem1.jpg'
 with open(filename, 'rb') as f:
     content = f.read()
 f = open("image.txt","w")

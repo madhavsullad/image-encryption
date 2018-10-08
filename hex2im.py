@@ -1,6 +1,6 @@
 import binascii
 
-my_file=open("image.txt","r")
+my_file=open("dec.txt","r")
 
 my_hex_string =  my_file.read()
 data = binascii.a2b_hex(my_hex_string)
