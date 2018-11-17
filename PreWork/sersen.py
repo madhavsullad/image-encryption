@@ -8,7 +8,7 @@ server_socket.listen(5)
 print 'server init. and listening'
 while True:
     client_socket, addr = server_socket.accept()
-    with open('wnc.txt', 'rb') as f:
+    with open('enc.txt', 'rb') as f:
         data = f.read(CHUNK_SIZE)
         while data:
             client_socket.send(data)
