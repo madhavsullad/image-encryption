@@ -1,2 +1,5 @@
 # Image-Encyption
-The almost nearly working files are in the directory named kinda done!
+Working scripts are in 'kinda done' directory.
+
+Works perfectly on Ubuntu.
+On windows error occurs in the client side.
